@@ -50,7 +50,9 @@ aumentam os erros de arredondamento e também pode ocorrer uma indeterminação 
 ##### como o elemento de maior modulo da primeira coluna é 7 e está na linha 3 é necessário realizar a troca da linha 1 pela linha 3
 
 7     4     0     2 
+
 1     0     5     4
+
 0     1     4     1     
 
 ##### Após isso pode ser realizada o escalonamento normalmente
