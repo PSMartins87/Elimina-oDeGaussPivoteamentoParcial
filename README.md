@@ -1,7 +1,8 @@
 # Eliminação de Gauss com pivoteamento parcial
   Eliminação de Gauss com pivoteamento parcial é um método direto para resolver o sistema de equações lineares.
   Neste método, usamos o pivoteamento parcial, ou seja, é escolhido o elemento pivô que é o valor mais alto na coluna após isso é realizado a troca de linhas para posicionar o maior valor na diagonal principal
-Após isso da para usar o método normal de Eliminação de Gauss para transformar a Matriz Aumentada na matriz triangular superior.
+Após isso da para usar o método da Eliminação de Gauss somente na coluna, posteriormente os mesmos passos são aplicados as próximas colunas, 
+##### Importante salientar que somente a linha do pivo e as que se encontram abaixo dele podem ser trocadas
 
 ### Vantagem em relação a eliminação normal
   O método de eliminação gaussiana é suscetível a propagação dos erros de arredondamento, em particular, quando os pivôs são números próximos de zero pois pivôs pequenos geram multiplicadores grandes, que
